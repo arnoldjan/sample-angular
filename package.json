@@ -1,0 +1,18 @@
+{
+  "name": "sample-angular",
+  "version": "0.0.0",
+  "description": "foo desc",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnoldjan/sample-angular.git"
+  },
+  "author": "Jan Arnold <ja@mi24.tv>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnoldjan/sample-angular/issues"
+  }
+}
