@@ -4,6 +4,7 @@
   "description": "foo desc",
   "main": "web.js",
   "scripts": {
+    "start": "node web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +15,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/arnoldjan/sample-angular/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
   }
 }
