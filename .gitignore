@@ -35,3 +35,6 @@ node_modules
 
 # PHPStorm
 .idea
+
+#Project web
+web/js

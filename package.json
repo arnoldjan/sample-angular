@@ -4,7 +4,11 @@
   "description": "foo desc",
   "main": "web.js",
   "scripts": {
+    "postinstall": "npm run build",
+    "prebuild": "mkdir -p web/js/",
+    "build": "npm run build:js",
     "start": "node web.js",
+    "build:js": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +21,9 @@
     "url": "https://github.com/arnoldjan/sample-angular/issues"
   },
   "dependencies": {
-    "express": "~4.13.3"
+    "express": "~4.13.3",
+    "angular": "~1.4.8",
+    "webpack": "~1.12.11",
+    "json-loader": "~0.5.4"
   }
 }
