@@ -38,3 +38,4 @@ node_modules
 
 #Project web
 web/js
+web/views/*
